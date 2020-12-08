@@ -13,4 +13,5 @@ def QRGenerator():
     # Saving QR code as a png file
     qr.png(name, scale =6)
 
-QRGenerator()
+if __name__ == "__main__":
+    QRGenerator()
